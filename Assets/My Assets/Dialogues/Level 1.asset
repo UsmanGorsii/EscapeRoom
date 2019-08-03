@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fca79d117de56d49889631eb5a9f899, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - Where am I?
+  - I can't move.. my hands and legs are chained to the wall.
+  - Eeehhh...  [Trying to break the chains... ]
+  - Hello, Mr. Smith
+  - Oh! You look nervous...
+  - Don't worry, you have been chosen to play a litte game...
+  - The game for your life
+  - So, let me tell you some rules of the game...
+  - 'If you find a way to escape, your life will be saved,
+
+    if not, or you choose not to cooperate, your life will end.'
+  - I need to find a way out by solving the puzzles...
+  lengths:
+  - 2
+  - 4
+  - 3
+  - 2
+  - 2.5
+  - 4
+  - 4
+  - 4
+  - 6
+  - 3
+  audioClips:
+  - {fileID: 8300000, guid: 3f353f0ae0177364c8e7290375aa66fa, type: 3}
+  - {fileID: 8300000, guid: ea02b457e9726544a838aaff4c5862a9, type: 3}
+  - {fileID: 8300000, guid: 7be3e8e591b91bc4daf4689478fdd566, type: 3}
+  - {fileID: 8300000, guid: 8857aca7a4d6ddb44a236a16adf2971d, type: 3}
+  - {fileID: 8300000, guid: 059513cb8b897944a855a71835773fed, type: 3}
+  - {fileID: 8300000, guid: e441ebb29dffa43478435c6a742350e0, type: 3}
+  - {fileID: 8300000, guid: 059513cb8b897944a855a71835773fed, type: 3}
+  - {fileID: 8300000, guid: 8857aca7a4d6ddb44a236a16adf2971d, type: 3}
+  - {fileID: 8300000, guid: 8857aca7a4d6ddb44a236a16adf2971d, type: 3}
+  - {fileID: 8300000, guid: 96dadd49e8d009849999fc98e8a4cbe1, type: 3}
