@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AP/Assets/Scenes/TheFirstAdventure/01_DefaultScene.unity
     guid: 2df4b979a014abc4d8b87517dc8eaa94
+  - enabled: 1
+    path: Assets/AP/Assets/Scenes/TheFirstAdventure/02_Level.unity
+    guid: 05752eecfa59d6d4e8fcde3422ee7474
   m_configObjects: {}

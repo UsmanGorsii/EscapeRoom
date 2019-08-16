@@ -17,7 +17,7 @@ public class objTranslateRotate : MonoBehaviour {
 	public List<bool> 	 	constraintsAxisPosition = new List<bool>{true,true,true};
 	public List<bool>  		constraintsAxisRotation = new List<bool>{true,false,true};
 
-
+   
 	//--> Audio Part
 	public AudioClip 		a_Open;
 	public float 			a_OpenVolume = 1;
@@ -139,8 +139,7 @@ public class objTranslateRotate : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         audioVarious = new audioVariousFunctions();
-
-		GameObject tmpObj = GameObject.Find ("UI_Infos");
+        GameObject tmpObj = GameObject.Find ("UI_Infos");
 		if (tmpObj)info = tmpObj.GetComponent<infoUI> ();
 
 		_audio = GetComponent<AudioSource> ();
@@ -503,6 +502,26 @@ public class objTranslateRotate : MonoBehaviour {
 
         yield return null;
     }
+
+    #region usman
+    public bool shouldOpenElectricBox() {
+        if (targetPos == targetEndPosition) {
+            return true;
+        }
+        return false;
+    }
+
+    public bool shouldOpenDooor()
+    {
+        if (targetPos != targetEndPosition)
+        {
+
+            AllReferences.Instance.teleporter.SetActive(true);
+            return true;
+        }
+        return false;
+    }
+    #endregion
 
     private void doorInitialization(){
         //hinge = objPivot.GetComponent<HingeJoint>();                    // init hinge joint
@@ -1080,7 +1099,6 @@ public class objTranslateRotate : MonoBehaviour {
 				if (groupFollow) {
 					groupFollow.transform.localEulerAngles = objPivot.localEulerAngles;
 				}
-
                 currentDoorState = "Open";
 			}
             //-> translation

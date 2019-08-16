@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   helpBoxEditor: 0
   currentDatasProjectFolder: TheFirstAdventure
-  int_CurrentDatasProjectFolder: 0
+  int_CurrentDatasProjectFolder: 2
   int_CurrentDatasSaveSystem: 1
   s_newProjectName: TheFirstAdventure
   languageList:
@@ -22,6 +22,7 @@ MonoBehaviour:
   s_newLanguageName: French
   firstSceneBuildInIndex: 1
   buildinList:
+  - 02_Level
   - 01_DefaultScene
   - 00_MainMenu
   newSceneName: Level

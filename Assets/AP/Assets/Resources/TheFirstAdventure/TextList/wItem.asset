@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -36,6 +37,112 @@ MonoBehaviour:
       uniqueItemID: 0
       itemType: 0
       audioPriority: 0
+    - diaryTitle:
+      - A Book
+      diaryTextDisplayState: 01
+      diaryText:
+      - This book is 120 years old.
+      diaryAudioClip:
+      - {fileID: 0}
+      diarySub:
+      - showMore: 00
+        startPointsClip:
+        - 0
+        firstLetter:
+        - 0
+        lastLetter: 1e000000
+        bypasstextLayout: 00
+        textSub:
+        - 
+      diarySprite:
+      - {fileID: 21300000, guid: 8809b324ee6124bd5ba262ddd7e8920f, type: 3}
+      refGameObject: {fileID: 6134378332402802131, guid: 8bf149018080ab44d9c213efb4f98986,
+        type: 3}
+      showInInventory: 1
+      prefabSizeInViewer: 1
+      prefabRotationInViewer: {x: -0, y: 0, z: 0}
+      uniqueItemID: 1
+      itemType: 0
+      audioPriority: 0
+    - diaryTitle:
+      - Piece of Paper
+      diaryTextDisplayState: 01
+      diaryText:
+      - The wisdom you need to move things.
+      diaryAudioClip:
+      - {fileID: 0}
+      diarySub:
+      - showMore: 00
+        startPointsClip:
+        - 0
+        firstLetter:
+        - 0
+        lastLetter: 1e000000
+        bypasstextLayout: 00
+        textSub:
+        - 
+      diarySprite:
+      - {fileID: 21300000, guid: 68b10316998b74291bec39d7d0acf138, type: 3}
+      refGameObject: {fileID: 1952698161211756, guid: e09b2dee59fce604383f0758b721b061,
+        type: 3}
+      showInInventory: 1
+      prefabSizeInViewer: 1
+      prefabRotationInViewer: {x: -0, y: 0, z: 0}
+      uniqueItemID: 2
+      itemType: 0
+      audioPriority: 0
+    - diaryTitle:
+      - Key
+      diaryTextDisplayState: 01
+      diaryText:
+      - 
+      diaryAudioClip:
+      - {fileID: 0}
+      diarySub:
+      - showMore: 00
+        startPointsClip:
+        - 0
+        firstLetter:
+        - 0
+        lastLetter: 1e000000
+        bypasstextLayout: 00
+        textSub:
+        - 
+      diarySprite:
+      - {fileID: 0}
+      refGameObject: {fileID: 0}
+      showInInventory: 1
+      prefabSizeInViewer: 0.5
+      prefabRotationInViewer: {x: -0, y: 0, z: 0}
+      uniqueItemID: 3
+      itemType: 0
+      audioPriority: 0
+    - diaryTitle:
+      - Object Name
+      diaryTextDisplayState: 01
+      diaryText:
+      - 
+      diaryAudioClip:
+      - {fileID: 0}
+      diarySub:
+      - showMore: 00
+        startPointsClip:
+        - 0
+        firstLetter:
+        - 0
+        lastLetter: 1e000000
+        bypasstextLayout: 00
+        textSub:
+        - 
+      diarySprite:
+      - {fileID: 0}
+      refGameObject: {fileID: 0}
+      showInInventory: 0
+      prefabSizeInViewer: 1.5
+      prefabRotationInViewer: {x: -0, y: 0, z: 0}
+      uniqueItemID: 4
+      itemType: 0
+      audioPriority: 0
   helpBoxEditor: 1
   idEditorSize: 20
   titleEditorSize: 240
@@ -48,9 +155,11 @@ MonoBehaviour:
   currentLanguage: 0
   fisrtTextDisplayedInEditor: 2
   howManyEntryDisplayed: 50
-  selectedID: 0
+  selectedID: 4
   b_EditSubtitle: 0
   currentAudioSubtitleEdit: 0
   editorType: 1
   showDefaultLanguage: 0
   multipleVoiceOver: 0
+  b_ShowEye: 0
+  b_UI_DisplayTextArea: 0
