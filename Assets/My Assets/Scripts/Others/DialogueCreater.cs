@@ -18,6 +18,8 @@ public class DialogueCreater : MonoBehaviour
 
     public int index;
 
+    public TaskManager taskManager;
+
     private void Start()
     {
         ShowDialogues();
@@ -122,5 +124,7 @@ public class DialogueCreater : MonoBehaviour
         DialogueManager.Instance.CreateDialogue(dialogue.dialogues[index], dialogue.lengths[index], dialogue.audioClips[index]);
         yield return new WaitUntil(() => DialogueManager.Instance.isDialogueCompleted);
         myCamera.gameObject.SetActive(false);
+
+        taskManager.StartTaskTimer();
     }
 }

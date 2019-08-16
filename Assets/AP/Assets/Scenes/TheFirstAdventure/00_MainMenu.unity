@@ -383,6 +383,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114588272727982682, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
+        type: 3}
+      propertyPath: mainMenu
+      value: 
+      objectReference: {fileID: 732738968}
+    - target: {fileID: 114588272727982682, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
+        type: 3}
+      propertyPath: SeeInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114588272727982682, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
+        type: 3}
+      propertyPath: b_PC
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114776536431693804, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
         type: 3}
       propertyPath: m_Transition
@@ -502,21 +517,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Transition
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114588272727982682, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
-        type: 3}
-      propertyPath: mainMenu
-      value: 
-      objectReference: {fileID: 732738968}
-    - target: {fileID: 114588272727982682, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
-        type: 3}
-      propertyPath: SeeInspector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114588272727982682, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
-        type: 3}
-      propertyPath: b_PC
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114154199894100124, guid: 7e23c0e6cb30a46d8b695b9f608554ac,
         type: 3}
